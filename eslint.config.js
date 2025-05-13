@@ -23,6 +23,8 @@ export default defineConfig([
       'no-cond-assign': 'warn', // 조건문에서 변수값 할당식 사용
       'no-redeclare': 1, // 변수 중복 선언
       indent: 'error', // 들여쓰기 검사(기본 4칸, 대괄호로 기본값 변경)
+      'no-unused-vars': 'off',
+      '@typescript-eslint/no-unused-vars': 0, // 선언된 변수가 사용되지 않아도 오류 표시되지 않음
     },
   },
   {
